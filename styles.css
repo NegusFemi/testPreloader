@@ -1,0 +1,34 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9999;
+  }
+  
+  .loader-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 44px;
+    background-color: #01454366;
+    border-radius: 1.6rem;
+  }
+  
+  .loader-percent {
+    font-family: serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: bold;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    color: #41315a;
+  }
+  
